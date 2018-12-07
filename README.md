@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/49500050-93fad300-f824-11e8-84d8-9d38a4a9d761.png">
+  <img src="https://user-images.githubusercontent.com/45159366/49635409-81170880-f9b4-11e8-9548-1117410d8f87.png">
   <br />
-  FoundationDB 
+  Firecracker 
 </h1>
 
-<p align="center"><b>This is the snap for FoundationDB, a distributed database designed to handle large volumes of structured data across clusters of commodity servers. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.</p>
+<p align="center"><b>This is the snap for Firecracker, a secure and fast microVMs for serverless computing. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.</p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
@@ -20,7 +20,7 @@
 
 ## Install
 
-    sudo snap install foundationdb
+    sudo snap install firecracker
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 

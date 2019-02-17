@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/49635409-81170880-f9b4-11e8-9548-1117410d8f87.png">
+  <img src="https://user-images.githubusercontent.com/45159366/52910502-40a5f780-324d-11e9-9a0a-dfacacb934bd.png">
   <br />
   Firecracker 
 </h1>

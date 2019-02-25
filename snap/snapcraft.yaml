@@ -14,7 +14,7 @@ architectures:
 
 apps:
     firecracker:
-    command: firecracker
+    command: bin/firecracker
     plugs:
       - home
       - network

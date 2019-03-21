@@ -1,5 +1,5 @@
 name: firecracker
-version: 0.15.0
+version: git
 summary: Secure and fast microVMs.
 description: Secure and fast microVMs for serverless computing.
   
@@ -7,6 +7,7 @@ adopt-info: devmode # use 'strict' once you have the right plugs and slots
 
 grade: stable
 confinement: devmode
+base: core18
 
 architectures:
   - build-on: amd64

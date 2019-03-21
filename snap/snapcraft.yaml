@@ -1,6 +1,7 @@
 name: firecracker
-summary: Secure and fast microVMs for serverless computing.
-description: 
+version: 0.15.0
+summary: Secure and fast microVMs.
+description: Secure and fast microVMs for serverless computing.
   
 adopt-info: devmode # use 'strict' once you have the right plugs and slots
 
@@ -18,10 +19,11 @@ apps:
     plugs:
       - home
       - network
+      - removable-media
 
 parts:
     firecracker:
-    plugin: 
+    plugin: rust
     source: https://github.com/firecracker-microvm/firecracker.git
     source-type: git
     override-pull: |

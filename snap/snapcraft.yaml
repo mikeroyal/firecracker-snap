@@ -1,13 +1,18 @@
 name: firecracker
-base: core18 # the base snap is the execution environment for this snap
-version: 0.15.0
+version: git
 summary: Secure and fast microVMs.
 description:| 
 Secure and fast microVMs for serverless computing.
   
 grade: stable
 confinement: strict
+base: core18
 
+architectures:
+  - build-on: amd64
+  - build-on: armhf
+  - build-on: arm64
+  
 parts:
   firecracker:
     plugin: rust
